@@ -496,7 +496,7 @@ function Library.new(config)
 	Logo.ZIndex = 4
 	Logo.Image = config.Logo;
 	Logo.ScaleType = Enum.ScaleType.Crop
-	Logo.ImageTransparency = 1;
+	Logo.ImageTransparency = 0;
 
 	Twen:Create(Logo,TweenInfo2,{ImageTransparency = 0}):Play();
 
